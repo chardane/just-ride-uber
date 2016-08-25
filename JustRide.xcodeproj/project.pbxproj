@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A91237E71D6E829A00530EC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91237E61D6E829A00530EC3 /* AppDelegate.swift */; };
+		A91237E91D6E829A00530EC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91237E81D6E829A00530EC3 /* ViewController.swift */; };
+		A91237EC1D6E829A00530EC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91237EA1D6E829A00530EC3 /* Main.storyboard */; };
+		A91237EE1D6E829A00530EC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A91237ED1D6E829A00530EC3 /* Assets.xcassets */; };
+		A91237F11D6E829A00530EC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A91237EF1D6E829A00530EC3 /* LaunchScreen.storyboard */; };
+		A91237FC1D6E829A00530EC3 /* JustRideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91237FB1D6E829A00530EC3 /* JustRideTests.swift */; };
+		A91238071D6E829A00530EC3 /* JustRideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91238061D6E829A00530EC3 /* JustRideUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A91237F81D6E829A00530EC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A91237DB1D6E829A00530EC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91237E21D6E829A00530EC3;
+			remoteInfo = JustRide;
+		};
+		A91238031D6E829A00530EC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A91237DB1D6E829A00530EC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A91237E21D6E829A00530EC3;
+			remoteInfo = JustRide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A91237E31D6E829A00530EC3 /* JustRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91237E61D6E829A00530EC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A91237E81D6E829A00530EC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A91237EB1D6E829A00530EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A91237ED1D6E829A00530EC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A91237F01D6E829A00530EC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A91237F21D6E829A00530EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91237F71D6E829A00530EC3 /* JustRideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustRideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91237FB1D6E829A00530EC3 /* JustRideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustRideTests.swift; sourceTree = "<group>"; };
+		A91237FD1D6E829A00530EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A91238021D6E829A00530EC3 /* JustRideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustRideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A91238061D6E829A00530EC3 /* JustRideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustRideUITests.swift; sourceTree = "<group>"; };
+		A91238081D6E829A00530EC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A91237E01D6E829A00530EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91237F41D6E829A00530EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91237FF1D6E829A00530EC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A91237DA1D6E829A00530EC3 = {
+			isa = PBXGroup;
+			children = (
+				A91237E51D6E829A00530EC3 /* JustRide */,
+				A91237FA1D6E829A00530EC3 /* JustRideTests */,
+				A91238051D6E829A00530EC3 /* JustRideUITests */,
+				A91237E41D6E829A00530EC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A91237E41D6E829A00530EC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A91237E31D6E829A00530EC3 /* JustRide.app */,
+				A91237F71D6E829A00530EC3 /* JustRideTests.xctest */,
+				A91238021D6E829A00530EC3 /* JustRideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A91237E51D6E829A00530EC3 /* JustRide */ = {
+			isa = PBXGroup;
+			children = (
+				A91237E61D6E829A00530EC3 /* AppDelegate.swift */,
+				A91237E81D6E829A00530EC3 /* ViewController.swift */,
+				A91237EA1D6E829A00530EC3 /* Main.storyboard */,
+				A91237ED1D6E829A00530EC3 /* Assets.xcassets */,
+				A91237EF1D6E829A00530EC3 /* LaunchScreen.storyboard */,
+				A91237F21D6E829A00530EC3 /* Info.plist */,
+			);
+			path = JustRide;
+			sourceTree = "<group>";
+		};
+		A91237FA1D6E829A00530EC3 /* JustRideTests */ = {
+			isa = PBXGroup;
+			children = (
+				A91237FB1D6E829A00530EC3 /* JustRideTests.swift */,
+				A91237FD1D6E829A00530EC3 /* Info.plist */,
+			);
+			path = JustRideTests;
+			sourceTree = "<group>";
+		};
+		A91238051D6E829A00530EC3 /* JustRideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A91238061D6E829A00530EC3 /* JustRideUITests.swift */,
+				A91238081D6E829A00530EC3 /* Info.plist */,
+			);
+			path = JustRideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A91237E21D6E829A00530EC3 /* JustRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A912380B1D6E829A00530EC3 /* Build configuration list for PBXNativeTarget "JustRide" */;
+			buildPhases = (
+				A91237DF1D6E829A00530EC3 /* Sources */,
+				A91237E01D6E829A00530EC3 /* Frameworks */,
+				A91237E11D6E829A00530EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustRide;
+			productName = JustRide;
+			productReference = A91237E31D6E829A00530EC3 /* JustRide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A91237F61D6E829A00530EC3 /* JustRideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A912380E1D6E829A00530EC3 /* Build configuration list for PBXNativeTarget "JustRideTests" */;
+			buildPhases = (
+				A91237F31D6E829A00530EC3 /* Sources */,
+				A91237F41D6E829A00530EC3 /* Frameworks */,
+				A91237F51D6E829A00530EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91237F91D6E829A00530EC3 /* PBXTargetDependency */,
+			);
+			name = JustRideTests;
+			productName = JustRideTests;
+			productReference = A91237F71D6E829A00530EC3 /* JustRideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A91238011D6E829A00530EC3 /* JustRideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A91238111D6E829A00530EC3 /* Build configuration list for PBXNativeTarget "JustRideUITests" */;
+			buildPhases = (
+				A91237FE1D6E829A00530EC3 /* Sources */,
+				A91237FF1D6E829A00530EC3 /* Frameworks */,
+				A91238001D6E829A00530EC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A91238041D6E829A00530EC3 /* PBXTargetDependency */,
+			);
+			name = JustRideUITests;
+			productName = JustRideUITests;
+			productReference = A91238021D6E829A00530EC3 /* JustRideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A91237DB1D6E829A00530EC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Charlyn Gonda";
+				TargetAttributes = {
+					A91237E21D6E829A00530EC3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A91237F61D6E829A00530EC3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A91237E21D6E829A00530EC3;
+					};
+					A91238011D6E829A00530EC3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A91237E21D6E829A00530EC3;
+					};
+				};
+			};
+			buildConfigurationList = A91237DE1D6E829A00530EC3 /* Build configuration list for PBXProject "JustRide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A91237DA1D6E829A00530EC3;
+			productRefGroup = A91237E41D6E829A00530EC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A91237E21D6E829A00530EC3 /* JustRide */,
+				A91237F61D6E829A00530EC3 /* JustRideTests */,
+				A91238011D6E829A00530EC3 /* JustRideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A91237E11D6E829A00530EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91237F11D6E829A00530EC3 /* LaunchScreen.storyboard in Resources */,
+				A91237EE1D6E829A00530EC3 /* Assets.xcassets in Resources */,
+				A91237EC1D6E829A00530EC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91237F51D6E829A00530EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91238001D6E829A00530EC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A91237DF1D6E829A00530EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91237E91D6E829A00530EC3 /* ViewController.swift in Sources */,
+				A91237E71D6E829A00530EC3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91237F31D6E829A00530EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91237FC1D6E829A00530EC3 /* JustRideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91237FE1D6E829A00530EC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A91238071D6E829A00530EC3 /* JustRideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A91237F91D6E829A00530EC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91237E21D6E829A00530EC3 /* JustRide */;
+			targetProxy = A91237F81D6E829A00530EC3 /* PBXContainerItemProxy */;
+		};
+		A91238041D6E829A00530EC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A91237E21D6E829A00530EC3 /* JustRide */;
+			targetProxy = A91238031D6E829A00530EC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A91237EA1D6E829A00530EC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A91237EB1D6E829A00530EC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A91237EF1D6E829A00530EC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A91237F01D6E829A00530EC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A91238091D6E829A00530EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A912380A1D6E829A00530EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A912380C1D6E829A00530EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JustRide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sampleapps.JustRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A912380D1D6E829A00530EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JustRide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sampleapps.JustRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A912380F1D6E829A00530EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JustRideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sampleapps.JustRideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustRide.app/JustRide";
+			};
+			name = Debug;
+		};
+		A91238101D6E829A00530EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JustRideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sampleapps.JustRideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustRide.app/JustRide";
+			};
+			name = Release;
+		};
+		A91238121D6E829A00530EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JustRideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sampleapps.JustRideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JustRide;
+			};
+			name = Debug;
+		};
+		A91238131D6E829A00530EC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JustRideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sampleapps.JustRideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JustRide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A91237DE1D6E829A00530EC3 /* Build configuration list for PBXProject "JustRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91238091D6E829A00530EC3 /* Debug */,
+				A912380A1D6E829A00530EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A912380B1D6E829A00530EC3 /* Build configuration list for PBXNativeTarget "JustRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A912380C1D6E829A00530EC3 /* Debug */,
+				A912380D1D6E829A00530EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A912380E1D6E829A00530EC3 /* Build configuration list for PBXNativeTarget "JustRideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A912380F1D6E829A00530EC3 /* Debug */,
+				A91238101D6E829A00530EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A91238111D6E829A00530EC3 /* Build configuration list for PBXNativeTarget "JustRideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91238121D6E829A00530EC3 /* Debug */,
+				A91238131D6E829A00530EC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A91237DB1D6E829A00530EC3 /* Project object */;
+}
