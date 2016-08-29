@@ -1,0 +1,6 @@
+framework module Pods_JustRide {
+  umbrella header "Pods-JustRide-umbrella.h"
+
+  export *
+  module * { export * }
+}
