@@ -61,5 +61,7 @@
         <string>uber</string>
         <string>uberauth</string>
     </array>
+    <key>UberServerToken</key>
+    <string>[Your Server Token]</string>
 </dict>
 </plist>
